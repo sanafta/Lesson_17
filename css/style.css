@@ -1025,6 +1025,11 @@ body {
 		font-size: 14px;
 	}
 }
+@media (max-width: 629.98px) {
+	.team__item_hidden {
+		display: none;
+	}
+}
 /* ================================================================ */	
 .testimonials {
 	padding: 90px 0;
