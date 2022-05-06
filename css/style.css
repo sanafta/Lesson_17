@@ -813,19 +813,20 @@ body {
 	.events__items {
 		margin-bottom: 20px;
 	}
-	.events__item {
-		flex-wrap: wrap;
-	}
 	.events__subject {
 		font-size: 17px;
 	}
 }
-@media (max-width: 404.98px) {
+@media (max-width: 649.98px) {
+	.events__item {
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 424.98px) {
 	.events__button.button {
 		width: 100%;
 	}
 }
-
 /* ================================================================ */
 .certificate {
 	padding: 120px 0 0;
