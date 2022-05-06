@@ -745,7 +745,7 @@ body {
 	border-radius: 4px;
 	padding: 32px 36px;
 	gap: 20px 40px;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	transition: all 0.4s ease 0s;
 }
 .events__item:not(:last-child) {
@@ -813,6 +813,9 @@ body {
 	.events__items {
 		margin-bottom: 20px;
 	}
+	.events__item {
+		flex-wrap: wrap;
+	}
 	.events__subject {
 		font-size: 17px;
 	}
@@ -822,6 +825,7 @@ body {
 		width: 100%;
 	}
 }
+
 /* ================================================================ */
 .certificate {
 	padding: 120px 0 0;
